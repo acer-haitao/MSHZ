@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+FILEPATH	getset_configmsg.h	25;"	d
+N	getset_configmsg.h	10;"	d
+_GETSET_CONFIGMSG_	getset_configmsg.h	9;"	d
+__anon1::forward_crc_disabled	getset_configmsg.h	/^	unsigned char forward_crc_disabled[N];$/;"	m	struct:__anon1	access:public
+__anon1::forward_crc_error	getset_configmsg.h	/^	unsigned char forward_crc_error[N];$/;"	m	struct:__anon1	access:public
+__anon1::forward_crc_valid	getset_configmsg.h	/^	unsigned char forward_crc_valid[N];$/;"	m	struct:__anon1	access:public
+__anon1::gateway_ID	getset_configmsg.h	/^	unsigned char gateway_ID[N];$/;"	m	struct:__anon1	access:public
+__anon1::keepalive_interval	getset_configmsg.h	/^	unsigned char keepalive_interval[N];$/;"	m	struct:__anon1	access:public
+__anon1::push_timeout_ms	getset_configmsg.h	/^	unsigned char  push_timeout_ms[N];$/;"	m	struct:__anon1	access:public
+__anon1::serv_port_down	getset_configmsg.h	/^	unsigned char serv_port_down[N];$/;"	m	struct:__anon1	access:public
+__anon1::server_address	getset_configmsg.h	/^	unsigned char server_address[N];$/;"	m	struct:__anon1	access:public
+__anon1::server_port_up	getset_configmsg.h	/^	unsigned char server_port_up[N];$/;"	m	struct:__anon1	access:public
+__anon1::stat_interval	getset_configmsg.h	/^	unsigned char stat_interval[N];$/;"	m	struct:__anon1	access:public
+configmsg	getset_configmsg.h	/^}configmsg;$/;"	t	typeref:struct:__anon1
+forward_crc_disabled	getset_configmsg.h	/^	unsigned char forward_crc_disabled[N];$/;"	m	struct:__anon1	access:public
+forward_crc_error	getset_configmsg.h	/^	unsigned char forward_crc_error[N];$/;"	m	struct:__anon1	access:public
+forward_crc_valid	getset_configmsg.h	/^	unsigned char forward_crc_valid[N];$/;"	m	struct:__anon1	access:public
+gateway_ID	getset_configmsg.h	/^	unsigned char gateway_ID[N];$/;"	m	struct:__anon1	access:public
+getconfigmsg	getset_configmsg.h	/^int  getconfigmsg(configmsg *MSG);$/;"	p	signature:(configmsg *MSG)
+getconfigmsg	main.c	/^int getconfigmsg(configmsg *MSG)$/;"	f	signature:(configmsg *MSG)
+keepalive_interval	getset_configmsg.h	/^	unsigned char keepalive_interval[N];$/;"	m	struct:__anon1	access:public
+main	main.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+push_timeout_ms	getset_configmsg.h	/^	unsigned char  push_timeout_ms[N];$/;"	m	struct:__anon1	access:public
+serv_port_down	getset_configmsg.h	/^	unsigned char serv_port_down[N];$/;"	m	struct:__anon1	access:public
+server_address	getset_configmsg.h	/^	unsigned char server_address[N];$/;"	m	struct:__anon1	access:public
+server_port_up	getset_configmsg.h	/^	unsigned char server_port_up[N];$/;"	m	struct:__anon1	access:public
+setconfigmsg	getset_configmsg.h	/^int  setconfigmsg();$/;"	p	signature:()
+setconfigmsg	main.c	/^int setconfigmsg(char *configname)$/;"	f	signature:(char *configname)
+stat_interval	getset_configmsg.h	/^	unsigned char stat_interval[N];$/;"	m	struct:__anon1	access:public
